@@ -307,90 +307,75 @@ line-height: 32px; /* 160% */
     cursor: pointer;
 }
 /* footer related styles */
- .footer{
+ footer{
     background: #070211;
-    width: 1600px;
-    height: 609px;
+    /* width: 1600px; */
+    padding: 50px 0px 50px 20px;
+    color:#FFF;
+    margin-top: 100px;
+    /* margin-left: 0;
+    margin-right: 0;
+     */
     
  }
- .footer-content{
+ .footer-column{
     display: flex;
-    margin: 20px 0px;
-    justify-content: space-between;
-    /* text-align: center; */
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    /* justify-content: space-around; */
-    width: 1600px;
-    height: 609px;
-    
-    
- }
- .footer-address{
-    color: #FFF;
-    font-family:' Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    padding: 100px ;
-    justify-content: space-between;
-    width: 375px;
-    height: 80px;
- }
- 
- .footer-contact{
-    color: #FFF;
-    font-family:' Inter';
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 30px;
-    text-align: center;
-    padding: 100px;
-    padding-left: 100px;
-    justify-content: space-between;
-    width: 300px;
-    margin-left: 300px;
-    
+    gap: 500px;
+    margin:0;
+    padding: 50px;
 
  }
- .footer-contact a{
+ .footer-column-info {
     color: #FFF;
     font-family: 'Inter';
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
-    text-decoration: none;
- }
- .footer-icon{
-    display: flex;
-    margin: 20px 0px;
-    align-items: center;
-    justify-content: space-between;
-
-
+    width: 50%;
     
+ }
+ .footer-column-line{
+    width: 1320px;
+    height: 1px; 
+    background: rgba(255, 255, 255, 0.15);
+    margin: 0; 
+    
+
+ }
+  .social-links-icon{
+   align-items: center;
+   padding: 50px;
+   padding-left: 500px;
+   /* margin: 20px 200px 70px 400px; */
+   justify-content: space-between;
+  
    
- }
- .footer-icon-fb{
-    width: 64px;
-    height: 64px;
+  
+  
+  }
+.footer-end{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    gap: 700px;
+    padding: 0;
+    margin: 0;
 
- } .footer-icon-insta{
-    
-    width: 64px;
-    height: 64px;
-
- } .footer-icon-twit{
-    
-    width: 64px;
-    height: 64px;
-
- } .footer-icon-linkdn
- {
-    width: 64px;
-    height: 64px;
- }
+}
+.button-end{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+}
