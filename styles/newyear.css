@@ -308,12 +308,13 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 40px;
     width: 50%;  
  }
- .footer-column-info i{
-    padding: 10px;
- }
- .footer-column-info a{
+ .footer-column-info i,a{
+    padding: 5px;
     color: #FFF;
  }
+ /* .footer-column-info {
+  
+ } */
  .footer-column-line{
     width: 1320px;
     height: 1px; 
@@ -327,7 +328,7 @@ h1,h2,h3,h4,h5,h6,p{
    justify-content: space-between;
   }
   .footer-end-section{
-    padding: 10px;
+    padding: 20px;
   }
 .footer-end{
     color: #FFF;
